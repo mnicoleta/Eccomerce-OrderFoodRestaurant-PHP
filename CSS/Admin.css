@@ -1,0 +1,147 @@
+/* 
+Author: Nico
+Theme: Food Order Websiete Admin 
+Version: 1.0;
+
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin:0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+.tbl-full{
+width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: #575fcf;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3c40c6;
+}
+.btn-secondary{
+    background-color: #05c46b;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #0be881;
+    color: black;
+}
+.btn-danger{
+    background-color: #ef5777;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #f53b57;
+    color: black;
+}
+.success{
+    color:#05c46b;
+    font-weight: bold;
+}
+.error{
+    color: #ff3f34;
+}
+.blink_me {
+    animation: blinker 5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {color: tomato;}
+    20%  {color: blue;}
+    750%  {color: rgb(65, 65, 83);}
+  }
+
+/* css for menu  */
+.menu{
+    border-bottom: 3px solid rgb(54, 44, 44);
+   
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FD7272 ;
+
+}
+.menu ul li a:hover{
+    color: #e55039;
+}
+
+/* css for main content */
+
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0;
+
+
+
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+
+}
+
+/* css for footer */
+
+.footer{
+    background-color: #FD7272;
+    color: white;
+}
+
+/* css for login */
+.login{
+width: 20%;
+border: 1px solid grey;
+margin: 10% auto;
+padding: 2%;
+
+
+}
